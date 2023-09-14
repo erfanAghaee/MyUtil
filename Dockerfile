@@ -15,6 +15,7 @@ COPY . /app
 # Create a build directory
 RUN mkdir build
 
+# Create a tmp directory for input/output
 RUN mkdir tmp
 
 # Compile the C++ code with CMake
