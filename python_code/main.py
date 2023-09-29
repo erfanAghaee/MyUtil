@@ -15,13 +15,13 @@ def run_cpp_program():
 
 if __name__ == "__main__":
     print("Python program started.")
-    print(os.listdir("./tmp/"))
-    file_path ="./tmp/hello.txt"
-    with open(file_path, "r") as file:
-        # Read the entire contents of the file into a string
-        file_contents = file.read()
-        print("File contents:")
-        print(file_contents)
+    # print(os.listdir("./tmp/"))
+    # file_path ="./tmp/hello.txt"
+    # with open(file_path, "r") as file:
+    #     # Read the entire contents of the file into a string
+    #     file_contents = file.read()
+    #     print("File contents:")
+    #     print(file_contents)
 
 
     run_cpp_program()
