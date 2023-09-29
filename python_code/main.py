@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
     run_cpp_program()
 
-    with open("./tmp/hello.txt", "w") as file:
-        # Write "hello" to the file
-        file.write("hello")
+    # with open("./tmp/hello.txt", "w") as file:
+    #     # Write "hello" to the file
+    #     file.write("hello")
     print("Python program finished.")
