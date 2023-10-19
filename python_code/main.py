@@ -1,5 +1,6 @@
 import subprocess
 import os
+from jupyter.logistic_function import *
 
 def run_cpp_program():
     try:
@@ -15,6 +16,8 @@ def run_cpp_program():
 
 if __name__ == "__main__":
     print("Python program started.")
+
+    logist_function_test()
     # print(os.listdir("./tmp/"))
     # file_path ="./tmp/hello.txt"
     # with open(file_path, "r") as file:
@@ -24,7 +27,7 @@ if __name__ == "__main__":
     #     print(file_contents)
 
 
-    run_cpp_program()
+    # run_cpp_program()
 
     # with open("./tmp/hello.txt", "w") as file:
     #     # Write "hello" to the file
